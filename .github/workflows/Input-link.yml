@@ -1,0 +1,13 @@
+name: Input Link Harian
+description: Kirim link website untuk dirangkum
+title: "[Rangkum] "
+labels: ["input-link"]
+body:
+  - type: input
+    id: link
+    attributes:
+      label: Link Website
+      description: Tempel URL yang ingin dirangkum
+      placeholder: https://example.com/artikel-menarik
+    validations:
+      required: true
